@@ -1,10 +1,14 @@
 // sendEmail.js - Send badge by email with nodemailer
-const nodemailer = require('nodemailer');
-const path = require('path');
-const fs = require('fs');
+import nodemailer from 'nodemailer';
+import path from 'path';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // userData: { email, name, userId, exposant, badgeUrl }
-async function sendBadgeEmail(userData) {
+export async function sendBadgeEmail(userData) {
     // Configure transporter (Gmail SMTP or other)
     const transporter = nodemailer.createTransport({
         service: process.env.SMTP_SERVICE || 'gmail',
@@ -35,5 +39,3 @@ async function sendBadgeEmail(userData) {
 
     await transporter.sendMail(mailOptions);
 }
-
-module.exports = { sendBadgeEmail };

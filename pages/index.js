@@ -1,5 +1,3 @@
-import { generateTicket } from '../../../generateTicket.js';
-
 export default function Home() {
   return (
     <div style={{
