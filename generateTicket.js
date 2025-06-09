@@ -1,13 +1,18 @@
-const { PDFDocument, rgb } = require('pdf-lib');
-const QRCode = require('qrcode');
-const fs = require('fs');
-const path = require('path');
+import { PDFDocument, rgb } from 'pdf-lib';
+import QRCode from 'qrcode';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// Get __dirname equivalent in ESM
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // A4 dimensions in points (72 points = 1 inch)
 const A4_WIDTH = 595.28;  // 210mm
 const A4_HEIGHT = 841.89; // 297mm
 
-async function generateTicket(sessionData) {
+export async function generateTicket(sessionData) {
   try {
     // Create a new PDF document
     const pdfDoc = await PDFDocument.create();
@@ -126,6 +131,4 @@ async function generateTicket(sessionData) {
     console.error('Error generating ticket:', error);
     throw error;
   }
-}
-
-module.exports = { generateTicket }; 
+} 
