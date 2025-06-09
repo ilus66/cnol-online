@@ -1,0 +1,18 @@
+[
+  {
+    "code": "123456",
+    "nom": "Optique Vision",
+    "email": "contact@optique-vision.com",
+    "telephone": "0522000000",
+    "adresse": "123 Avenue Mohammed V, Rabat",
+    "createdAt": "2024-03-07T00:00:00.000Z"
+  },
+  {
+    "code": "234567",
+    "nom": "Lunettes Pro",
+    "email": "contact@lunettes-pro.com",
+    "telephone": "0522000001",
+    "adresse": "456 Boulevard Hassan II, Casablanca",
+    "createdAt": "2024-03-07T00:00:00.000Z"
+  }
+] 

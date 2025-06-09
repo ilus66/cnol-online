@@ -1,0 +1,15 @@
+{
+  "name": "cnol-online",
+  "version": "1.0.0",
+  "description": "Application CNOL Online",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-badge": "node scripts/test-badge-visiteur.js"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.3"
+  }
+} 
