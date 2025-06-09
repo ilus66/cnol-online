@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "type": "atelier",
+    "titre": "Les nouvelles technologies en optique",
+    "description": "Découvrez les dernières innovations technologiques dans le domaine de l'optique et leur impact sur la pratique quotidienne.",
+    "intervenant": "Dr. Ahmed Benali",
+    "date": "2025-10-10",
+    "heure": "09:00 - 11:00",
+    "salle": "Salle A",
+    "places": 30,
+    "inscrits": 0
+  },
+  {
+    "id": "2",
+    "type": "masterclass",
+    "titre": "Gestion avancée d'un magasin d'optique",
+    "description": "Apprenez les meilleures pratiques pour gérer efficacement votre magasin d'optique et optimiser votre rentabilité.",
+    "intervenant": "Mohammed El Fathi",
+    "date": "2025-10-10",
+    "heure": "14:00 - 16:00",
+    "salle": "Salle B",
+    "places": 20,
+    "inscrits": 0
+  },
+  {
+    "id": "3",
+    "type": "atelier",
+    "titre": "Techniques de vente en optique",
+    "description": "Maîtrisez les techniques de vente spécifiques au secteur de l'optique et améliorez votre taux de conversion.",
+    "intervenant": "Fatima Zahra",
+    "date": "2025-10-11",
+    "heure": "10:00 - 12:00",
+    "salle": "Salle C",
+    "places": 25,
+    "inscrits": 0
+  },
+  {
+    "id": "4",
+    "type": "masterclass",
+    "titre": "Marketing digital pour opticiens",
+    "description": "Développez votre présence en ligne et apprenez à utiliser les outils digitaux pour attirer plus de clients.",
+    "intervenant": "Karim Benjelloun",
+    "date": "2025-10-11",
+    "heure": "15:00 - 17:00",
+    "salle": "Salle D",
+    "places": 20,
+    "inscrits": 0
+  }
+] 
