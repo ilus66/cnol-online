@@ -12,15 +12,15 @@ export default function Home() {
       padding: 20
     }}>
       <img
-        src="/images/cnol2025-logo.png"
+        src="/images/cnol-logo-blanc.png"
         alt="Logo CNOL"
-        style={{ width: 120, marginBottom: 32 }}
+        style={{ width: 200, marginBottom: 32 }}
       />
       <h1 style={{ fontSize: 32, fontWeight: 700, marginBottom: 16, textAlign: 'center' }}>
         Bienvenue sur l'application CNOL Online
       </h1>
       <p style={{ fontSize: 18, maxWidth: 420, textAlign: 'center', marginBottom: 32 }}>
-        Gérez votre inscription, vos réservations et vos badges pour le Congrès National d'Optique-Lunetterie.
+        Gérez vos réservations et téléchargez vos badges pour le Congrès National d'Optique-Lunetterie.
       </p>
       <div style={{ display: 'flex', gap: 16 }}>
         <button
@@ -35,9 +35,9 @@ export default function Home() {
             cursor: 'pointer',
             boxShadow: '0 2px 8px rgba(0,0,0,0.08)'
           }}
-          onClick={() => window.location.href = '/inscription'}
+          onClick={() => window.location.href = '/badge'}
         >
-          S'inscrire
+          Télécharger mon badge
         </button>
         <button
           style={{
