@@ -1,12 +1,1 @@
-# Répertoires à ignorer
-node_modules/
-.next/
-public/badges/
-public/uploads/
 
-# Fichiers système
-.DS_Store
-
-# Autres fichiers sensibles (si ajoutés plus tard)
-.env
-.env.local
